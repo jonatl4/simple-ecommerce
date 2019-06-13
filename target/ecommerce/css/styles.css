@@ -1,0 +1,383 @@
+.header {
+  background-color: #fff;
+  font-family: "Roboto", sans-serif;
+  width: 1150px;
+  margin: auto;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+	background-color: #424140
+}
+
+table
+{ 
+    margin-left: auto;
+    margin-right: auto;
+	font-family: "Roboto", sans-serif;
+	color:#aaa;
+}
+
+.nav {
+	width: 1150px;
+    margin: auto;
+}
+
+.nav ul {
+	font-family: "Roboto", sans-serif;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+.nav li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.itemContainer {
+	padding: 50px;
+	background-color: #424140;
+	margin: auto;
+}
+
+.zoom {
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    margin: 10px;
+     -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+	}
+	
+	
+.zoom:hover {
+    position: relative;
+    -webkit-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    transform: scale(1.25);
+    z-index: 1000;
+	}	
+
+.overview{
+  background-color: #fff;
+  width: 1150px;
+  margin: auto;
+  padding: 25px 0px;
+}
+
+.overview  h1{
+ margin-left: 50px;
+ font-size: 26pt;
+}
+
+.overview figure {
+  margin-left: 50px;
+  display: inline-block;
+}
+
+.overview figure img {
+  max-width: 350px;
+  padding-top: 50px;
+  padding-right: 25px;
+  height: 350px;
+}
+
+.overview section {
+  font-family: Tahoma, Arial, sans-serif;
+  line-height: 150%;
+  float:left;
+  width: 500px;
+  color: #333;
+  margin-left: 50px
+}
+
+.product{
+  background-color: #fff;
+  width: 1150px;
+  margin: auto;
+  padding: 25px 0px;
+  padding-bottom: 60px;
+}
+
+.product h1, h4 {
+  font-family: Helvetica Neue, Arial, sans-serif;
+  font-weight: normal;
+  line-height: 125%;
+}
+.product h1 { 
+  font-size: 26pt;
+}
+.product h4 {
+  font-size: 20pt;
+  color: #aaa; 
+}
+
+.product  header {
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+
+.product figure {
+  margin-left: 50px;
+  display: inline-block;
+}
+
+.product figure img {
+  max-width: 325px;
+  padding-top: 50px;
+  padding-right: 25px;
+  height: 350px;
+}
+
+.product section {
+  font-family: Tahoma, Arial, sans-serif;
+  line-height: 150%;
+  float:right;
+  width: 300px;
+  color: #333;
+  margin-right: 50px
+}
+
+.productquantity{
+  font-size: 18pt;
+  background-color: #fff;
+  margin: auto;
+  padding: 25px 0px;
+}
+
+.productquantity span.quantity{
+  font-weight: bold;
+  margin-left: 50px
+}
+
+.productquantity span.total{
+  font-weight: bold;
+  float: right;
+  margin-right: 50px
+}
+
+.qty {
+    width: 35px;
+    height: 25px;
+    text-align: center;
+}
+
+.productform {
+  background-color: #fff;
+  width: 1150px;
+  margin: auto;
+  padding: 25px 0px;
+}
+
+.innerform {
+  margin-left: 50px
+}
+
+.productform fieldset {
+	width: 500px
+}
+
+.productform legend {
+	width:1000px;
+	font size: 22px
+}
+
+.productform input.textbox {
+	width: 300px;
+	float: left;
+}
+
+.productform input.csv {
+	width: 50px;
+}
+
+.productform fieldset p {
+	clear: both;
+	padding: 5px;
+}
+
+.productform span.required{
+	color: red;
+	font-weight: bold;
+}
+
+.cart{
+  background-color: #fff;
+  width: 1150px;
+  margin: auto;
+  padding: 25px 0px;
+  padding-bottom: 60px;
+}
+
+
+.cart table {
+  border: 2px solid ;
+}
+
+.cart th {
+border: 1px solid;
+padding: 20px;
+}
+
+.cart td {
+text-align: center;
+border: 1px solid;
+padding: 20px;
+}
+
+.cart img {
+  max-width: 75px;
+  height: 100px;
+}
+
+.cartContainer {
+  margin-left: 50px
+}
+
+.confirmation{
+  background-color: #fff;
+  width: 1150px;
+  margin: auto;
+  padding: 25px 0px;
+  padding-bottom: 60px;
+}
+
+
+.confirmation table {
+  border: 2px solid ;
+}
+
+.confirmation th {
+border: 1px solid;
+padding: 20px;
+}
+
+.confirmation td {
+text-align: center;
+border: 1px solid;
+padding: 20px;
+}
+
+.confirmation img {
+  max-width: 75px;
+  height: 100px;
+}
+
+.confContainer {
+  margin-left: 50px
+}
+
+.producttaxrate{
+  font-size: 18pt;
+  background-color: #fff;
+  margin: auto;
+  padding: 25px 0px;
+}
+
+.producttaxrate span.taxrate{
+  font-weight: bold;
+  margin-left: 50px
+}
+
+.producttaxrate span.grandtotal{
+  font-size: 22pt;
+  font-weight: bold;
+  float: right;
+  margin-right: 50px
+}
+
+.product input[type=submit] {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  margin: auto;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.product input[type=submit]:hover {background-color: #3e8e41}
+
+.product input[type=submit]:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.productform input[type=submit] {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.productform input[type=submit]:hover {background-color: #3e8e41}
+
+.productform input[type=submit]:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.cart input[type=submit] {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  margin: auto;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.cart input[type=submit]:hover {background-color: #3e8e41}
+
+.cart input[type=submit]:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
